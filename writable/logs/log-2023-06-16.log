@@ -1,0 +1,125 @@
+INFO - 2023-06-16 23:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-16 23:27:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1) VALUES (:0:, :1:)' at line 1 in /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/login-auth/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/login-auth/app/Database/Seeds/UserSeeder.php(24): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/login-auth/system/Database/Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 /opt/lampp/htdocs/login-auth/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#7 /opt/lampp/htdocs/login-auth/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#8 /opt/lampp/htdocs/login-auth/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /opt/lampp/htdocs/login-auth/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-06-16 23:28:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1) VALUES (:0:, :1:)' at line 1 in /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/login-auth/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/login-auth/app/Database/Seeds/UserSeeder.php(24): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/login-auth/system/Database/Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 /opt/lampp/htdocs/login-auth/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#7 /opt/lampp/htdocs/login-auth/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#8 /opt/lampp/htdocs/login-auth/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /opt/lampp/htdocs/login-auth/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-06-16 23:30:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1) VALUES (:0:, :1:)' at line 1 in /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/login-auth/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/login-auth/app/Database/Seeds/UserSeeder.php(24): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/login-auth/system/Database/Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 /opt/lampp/htdocs/login-auth/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#7 /opt/lampp/htdocs/login-auth/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#8 /opt/lampp/htdocs/login-auth/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /opt/lampp/htdocs/login-auth/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-06-16 23:30:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1) VALUES (:0:, :1:)' at line 1 in /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/login-auth/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/login-auth/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/login-auth/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/login-auth/app/Database/Seeds/UserSeeder.php(24): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/login-auth/system/Database/Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 /opt/lampp/htdocs/login-auth/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#7 /opt/lampp/htdocs/login-auth/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#8 /opt/lampp/htdocs/login-auth/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run()
+#9 /opt/lampp/htdocs/login-auth/spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2023-06-16 23:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-16 23:34:09 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH/Controllers/LoginController.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LoginController->doLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/login-auth/public/index.php')
+INFO - 2023-06-16 23:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-16 23:34:45 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH/Controllers/LoginController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\LoginController->doLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/login-auth/public/index.php')
+INFO - 2023-06-16 23:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-16 23:38:40 --> "login" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/login-auth/public/index.php')
+CRITICAL - 2023-06-16 23:38:50 --> "login" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/login-auth/public/index.php')
+INFO - 2023-06-16 23:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 23:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
